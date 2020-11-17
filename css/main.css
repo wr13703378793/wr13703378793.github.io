@@ -1063,7 +1063,7 @@ pre .javascript .function {
   right: 30px;
   z-index: 1050;
   padding: 0 6px;
-  width: 24px;
+  width: initial;
   background: #222;
   font-size: 12px;
   opacity: 1;
@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f43d8a;
+  background: #db3970;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2620,7 +2620,7 @@ embed {
   .site-nav {
     position: absolute;
     left: 0;
-    top: 52px;
+    top: 95px;
     margin: 0;
     width: 100%;
     padding: 0;
@@ -2684,4 +2684,13 @@ header {
 .site-meta .site-title {
   font-size: 24px;
   font-weight: bold;
+}
+.back-to-top .fa-arrow-up:before {
+  color: #7e12ff;
+}
+.sidebar-toggle {
+  left: 30px;
+}
+.sidebar {
+  left: 0px;
 }
